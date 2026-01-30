@@ -101,6 +101,10 @@ body {
     margin-bottom: 25px;
 }
 
+.navbar-container .nav-element:hover {
+  cursor: pointer;
+}
+
 .textbox{
     display: flex;
     flex: 1;

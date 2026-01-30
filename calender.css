@@ -116,6 +116,10 @@ body {
     margin-bottom: 25px;
 }
 
+.navbar-container .nav-element:hover {
+  cursor: pointer;
+}
+
 .img-container {
     flex: 1;
     background-color: #2F2D2E;
