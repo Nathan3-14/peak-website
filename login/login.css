@@ -1,0 +1,107 @@
+body {
+  font-family: Calibri, sans-serif;
+  text-align: center;
+  color: #fffffb;
+  background-color: black;
+  padding: 50px;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  min-height: 90vh; /* Ensures the body takes full viewport height */
+  margin: 0; /* Removes default browser margins */
+}
+
+a:link {
+  color: #2c8a5f;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #16d881;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #16d881;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+input[type="text"] {
+  border-radius: 25px;
+  border: 1px solid #000000;
+  color: #fffffb;
+  width: 250px;
+  background-color: #99c24d;
+  height: 30px;
+  padding-left: 10px;
+}
+
+input[type="password"] {
+  border-radius: 25px;
+  border: 1px solid #000000;
+  color: #fffffb;
+  width: 250px;
+  background-color: #99c24d;
+  height: 30px;
+  padding-left: 10px;
+}
+
+.loginscreen {
+  border: 25px #285943;
+  background-color: #2f2d2e;
+  text-align: center;
+}
+
+.text1 {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.bigdiv {
+  border: solid 8px #285943;
+  background-color: #2f2d2e;
+  padding: 100px;
+  border-radius: 100px;
+  width: 80vh;
+  height: 250px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.imagediv {
+  border: 25px #285943;
+  background-color: #2f2d2e;
+  text-align: center;
+  margin-right: 30px;
+}
+
+h1 {
+  color: #0056b3;
+}
+
+p {
+  font-size: 1.2em;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+.button1 {
+  background-color: #285943;
+} /* Green */
